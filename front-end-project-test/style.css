@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 40px 0 40px 0;
+    background-color: black;
+}
+h1{
+    color: white;
+}
+
+.box, form{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 30px;
+    padding: 0 15px 0 15px;
+    color: black;
+}
+
+button{
+    color: white;
+    background-color: darkslategray;
+    width: 159px;
+    height: 25px;
+}
